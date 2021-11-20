@@ -11,7 +11,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "eslint": "eslint src/**"
   },
   "dependencies": {
     "@discordjs/rest": "^0.1.1-canary.0",
