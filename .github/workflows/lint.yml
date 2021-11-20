@@ -1,0 +1,21 @@
+name: Lint
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Run ESLint
+        uses: stefanoeb/eslint-action@1.0.2
+        with: 
+          files: src/
+      
