@@ -6,7 +6,8 @@
   "repository": "https://github.com/kenirgy/nagin",
   "license": "MIT",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "dependencies": {
     "@discordjs/rest": "^0.1.0-canary.0",
@@ -14,5 +15,8 @@
     "discord.js": "^13.3.1",
     "dotenv": "^10.0.0",
     "glob": "^7.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
