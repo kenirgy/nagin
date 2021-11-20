@@ -21,6 +21,7 @@
     "glob": "^7.2.0"
   },
   "devDependencies": {
+    "eslint": "^8.2.0",
     "nodemon": "^2.0.15"
   }
 }
