@@ -1,4 +1,4 @@
-require('dotenv').config({path: './.env'});
+require('dotenv').config({ path: './.env' });
 const glob = require('glob');
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
@@ -23,7 +23,8 @@ const rest = new REST({ version: '9' }).setToken(process.env.TOKEN);
 		);
 
 		console.log('Successfully registered application commands.');
-	} catch (error) {
+	}
+	catch (error) {
 		console.error(error);
 	}
 })();
