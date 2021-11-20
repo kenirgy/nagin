@@ -8,7 +8,7 @@
     git clone https://github.com/<username>/nagin.git
     ```
 
-- now create your branch 
+- now create your branch
 
     ```sh
     git checkout -b <branch_name>

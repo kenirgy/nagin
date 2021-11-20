@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "A cool discord bot",
   "main": "src/index.js",
-  "repository": "https://github.com/kenirgy/nagin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kenirgy/nagin"
+  },
+  "bugs": "https://github.com/kenirgy/nagin/issues",
   "license": "MIT",
   "scripts": {
     "start": "node src/index.js"
